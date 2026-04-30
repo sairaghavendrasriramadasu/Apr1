@@ -1,0 +1,36 @@
+.main-bg-container-about {
+    background-image: url('../../../../../assets/aboutImage.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding: 40px;
+}
+
+/* GRID CONTAINER */
+.main-containerabout-grids {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 20px;
+}
+
+/* CARD STYLE */
+.main-containerabout-grids > div {
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+/* Special styles */
+.mission-content {
+    background-color: #FFA92E;
+}
+
+.about-heading-section {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.about-para-section {
+    color: #000;
+    font-size: 14px;
+}

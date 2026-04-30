@@ -1,0 +1,53 @@
+/* task4.css - External styles for SigninSignout component */
+
+.signin-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.signin-form h2 {
+  margin-bottom: 10px;
+}
+
+.signin-input {
+  display: block;
+  margin: 8px auto;
+  padding: 8px;
+  width: 250px;
+  border: 1px solid #101010;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.signin-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.signin-button:hover {
+  background-color: #0056b3;
+}
+
+.welcome-message h2 {
+  color: #28a745;
+  margin-bottom: 20px;
+}
+
+.signout-button {
+  padding: 10px 20px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.signout-button:hover {
+  background-color: #c82333;
+}
