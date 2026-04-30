@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import "./index.css";
 import { DataContext } from "../../Context";
 
+
 export default function Navbar() {
   const navigate = useNavigate();
   const [menuOpen, setMenuOpen] = useState(false);
@@ -52,6 +53,7 @@ export default function Navbar() {
       </button>
 
       {/* Menu */}
+      <h2 style={{ color: 'ORANGE', fontSize: '30px',margin: '0 10px' }}>SP HAPPY SHOPPING </h2>
       <div className={`list-container ${menuOpen ? "active" : ""}`}>
         <ul className="list-items">
           <li onClick={() => navigate("/")}>Home</li>
